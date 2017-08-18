@@ -5,6 +5,8 @@
  */
 package studio;
 
+import view.MainView;
+
 /**
  *
  * @author Admin
@@ -15,7 +17,9 @@ public class Studio {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        MainView mainView = new MainView();
+        
     }
     
 }
