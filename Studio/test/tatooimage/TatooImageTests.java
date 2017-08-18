@@ -3,9 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tests;
+package tatooimage;
 
-import dabatase.Mongodb;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -17,36 +16,30 @@ import static org.junit.Assert.*;
  *
  * @author Admin
  */
-public class MongoConnectionTest {
-
-    public MongoConnectionTest() {
+public class TatooImageTests {
+    
+    public TatooImageTests() {
     }
-
+    
     @BeforeClass
     public static void setUpClass() {
     }
-
+    
     @AfterClass
     public static void tearDownClass() {
     }
-
+    
     @Before
     public void setUp() {
-
-        Mongodb mongo = new Mongodb();
-
     }
-
+    
     @After
     public void tearDown() {
     }
 
-    @Test
-    public void testConnection() {
-
-        Mongodb mongo = new Mongodb();
-        assertTrue(mongo.connect());
-        
-    }
-
+    // TODO add test methods here.
+    // The methods must be annotated with annotation @Test. For example:
+    //
+    // @Test
+    // public void hello() {}
 }
